@@ -637,7 +637,7 @@ MonoBehaviour:
       m_Name: Is Tracked
       m_Type: 1
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: e62c1f4b-67da-4b5a-8449-a0eb37900201
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -740,7 +740,7 @@ MonoBehaviour:
       m_Name: UI Scroll
       m_Type: 0
       m_ExpectedControlType: Vector2
-      m_Id: 
+      m_Id: ee2c9c04-3885-4d2c-9be9-2de6bd97ba89
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -778,7 +778,7 @@ MonoBehaviour:
       m_Name: Directional Anchor Rotation
       m_Type: 0
       m_ExpectedControlType: Vector2
-      m_Id: 
+      m_Id: a57f8723-25fb-4a9f-9d7b-4d5b8fd1fd1f
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1688,10 +1688,10 @@ MonoBehaviour:
   m_TrackingStateInput:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Tracking State Input
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 0b987b9b-0abe-4f72-a106-cc1f294cc185
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
