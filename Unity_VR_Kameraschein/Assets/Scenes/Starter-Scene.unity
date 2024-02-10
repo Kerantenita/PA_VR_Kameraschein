@@ -2271,17 +2271,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1afb604df44edc24bb5eb0cafb3bf94f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.0349998
+      value: 1.747
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1afb604df44edc24bb5eb0cafb3bf94f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.102718
+      value: -3.65
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1afb604df44edc24bb5eb0cafb3bf94f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.6550007
+      value: 1.316
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1afb604df44edc24bb5eb0cafb3bf94f,
         type: 3}
@@ -2338,6 +2338,41 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 1afb604df44edc24bb5eb0cafb3bf94f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 435
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 1afb604df44edc24bb5eb0cafb3bf94f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2379
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 1afb604df44edc24bb5eb0cafb3bf94f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2372
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 1afb604df44edc24bb5eb0cafb3bf94f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 1afb604df44edc24bb5eb0cafb3bf94f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 1afb604df44edc24bb5eb0cafb3bf94f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 1afb604df44edc24bb5eb0cafb3bf94f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 1afb604df44edc24bb5eb0cafb3bf94f,
         type: 3}
       propertyPath: m_Name
@@ -2371,7 +2406,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8164078558771037576, guid: 1afb604df44edc24bb5eb0cafb3bf94f,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 373220999}
+      addedObject: {fileID: 373221003}
   m_SourcePrefab: {fileID: 100100000, guid: 1afb604df44edc24bb5eb0cafb3bf94f, type: 3}
 --- !u!4 &373220995 stripped
 Transform:
@@ -2397,45 +2432,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 373220994}
   m_PrefabAsset: {fileID: 0}
---- !u!59 &373220999
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 373220997}
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: -104, y: 1835.8, z: 139}
-  m_Axis: {x: 0, y: -1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.5472279, y: 2.8436732, z: -14.123521}
-  serializedVersion: 2
-  m_UseSpring: 0
-  m_Spring:
-    spring: 0
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 1
-  m_ExtendedLimits: 1
-  m_UseAcceleration: 0
-  m_Limits:
-    min: -217.41273
-    max: -126.77756
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!114 &373221000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2546,7 +2542,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -2630,8 +2626,47 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 110.47846, y: 51.947998, z: 240.42194}
-  m_Center: {x: -66.77151, y: 1820.5813, z: 245.73418}
+  m_Size: {x: 175.18692, y: 145.41566, z: 211.6625}
+  m_Center: {x: -75.16002, y: 1809.7965, z: 308.04596}
+--- !u!59 &373221003
+HingeJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373220997}
+  m_ConnectedBody: {fileID: 0}
+  m_ConnectedArticulationBody: {fileID: 0}
+  m_Anchor: {x: -104, y: 1846.5548, z: 139}
+  m_Axis: {x: 0, y: 0, z: 1}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 1.2472782, y: 3.0709367, z: -13.705161}
+  serializedVersion: 2
+  m_UseSpring: 0
+  m_Spring:
+    spring: 0
+    damper: 0
+    targetPosition: 0
+  m_UseMotor: 0
+  m_Motor:
+    targetVelocity: 0
+    force: 0
+    freeSpin: 0
+  m_UseLimits: 1
+  m_ExtendedLimits: 0
+  m_UseAcceleration: 0
+  m_Limits:
+    min: 0
+    max: 88.60962
+    bounciness: 0
+    bounceMinVelocity: 0.2
+    contactDistance: 0
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -4373,8 +4408,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.17296681, y: 0.31406537, z: 0.19594757}
-  m_Center: {x: -2.4450483, y: -0.8494313, z: -0.7212829}
+  m_Size: {x: 0.056764267, y: 0.285724, z: 0.19594757}
+  m_Center: {x: -2.4365501, y: -0.8352611, z: -0.721283}
 --- !u!114 &494105806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5519,7 +5554,7 @@ ConfigurableJoint:
     spring: 0
     damper: 0
   m_LinearLimit:
-    limit: 6.38
+    limit: 0.3
     bounciness: 0
     contactDistance: 0
   m_AngularXLimitSpring:
