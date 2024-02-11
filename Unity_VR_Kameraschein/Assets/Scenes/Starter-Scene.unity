@@ -2095,7 +2095,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.15
+  m_Radius: 0.13
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &364578167
 MonoBehaviour:
@@ -5618,7 +5618,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 950bd85b708e34144b8e44db3c2407d1,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 950bd85b708e34144b8e44db3c2407d1,
         type: 3}
@@ -7223,7 +7223,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.15
+  m_Radius: 0.13
   m_Center: {x: 0.13378641, y: 0, z: 0}
 --- !u!114 &712900743
 MonoBehaviour:
@@ -9674,6 +9674,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rug_Rect_Purple
+      objectReference: {fileID: 0}
+    - target: {fileID: 7836764174154089814, guid: e5b6e40db88c14344b1b380c0e966e20,
+        type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 7836764174154089814, guid: e5b6e40db88c14344b1b380c0e966e20,
         type: 3}
@@ -12588,7 +12593,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Herzlichen Gl\xFCckwunsch, jetzt \nk\xF6nnen Sie mit dem Filmen beginnen!"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12677,7 +12682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9be2df20dd4c2d74a92ddf9be77c7a94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messageOutput: {fileID: 0}
+  messageOutput: {fileID: 50210464}
   OnComplete:
     m_PersistentCalls:
       m_Calls:
@@ -12704,7 +12709,6 @@ MonoBehaviour:
     \n\nDrehen Sie den Kamerabildschirm \nnun um 90 Grad zu sich hin, sodass \nSie
     den Bildschirm vor sich sehen."
   - "4. Starten Sie die Aufnahme, indem \nSie den On/Off Knopf auf On stellen."
-  - "Herzlichen Gl\xFCckwunsch, jetzt \nk\xF6nnen Sie mit dem Filmen beginnen!"
 --- !u!1 &1498382532
 GameObject:
   m_ObjectHideFlags: 0
@@ -23268,6 +23272,7 @@ MonoBehaviour:
     hin und her bis die\nLuftblase in der Wasserwaage sich \ngenau in der Mitte befindet.\n\nDanach
     schrauben Sie die Schraube \nwieder zu und die Kamera ist \nausgerichtet und
     befestigt."
+  - "Herzlichen Gl\xFCckwunsch, jetzt \nk\xF6nnen Sie mit dem Filmen beginnen!"
 --- !u!1 &1918117902
 GameObject:
   m_ObjectHideFlags: 0
@@ -27499,8 +27504,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 154.19551, y: 116.85405, z: 205.24394}
-  m_Center: {x: 61.099495, y: 1391.768, z: -435.4398}
+  m_Size: {x: 70.239815, y: 63.048843, z: 122.88836}
+  m_Center: {x: 31.392632, y: 1364.8368, z: -472.30573}
 --- !u!59 &8164078558451204685
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -27795,8 +27800,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 148.73686, y: 138.46632, z: 156.28352}
-  m_Center: {x: -0.8364303, y: 835.85565, z: -124.87453}
+  m_Size: {x: 148.73686, y: 138.46632, z: 101.37553}
+  m_Center: {x: -0.8365062, y: 835.85565, z: -152.32852}
 --- !u!1 &8164078558735907143
 GameObject:
   m_ObjectHideFlags: 0
@@ -28283,8 +28288,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 9.757874, y: 77.55416, z: 19.034552}
-  m_Center: {x: -42.87893, y: 109.870476, z: 0.7251184}
+  m_Size: {x: 18.08548, y: 77.55416, z: 26.604141}
+  m_Center: {x: -43.3618, y: 109.870476, z: -3.059726}
 --- !u!1 &8164078559403398934
 GameObject:
   m_ObjectHideFlags: 0
@@ -28794,8 +28799,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 96.1043, y: 55.38199, z: 109.44387}
-  m_Center: {x: -5.8938155, y: 821.044, z: 65.23208}
+  m_Size: {x: 96.10431, y: 156.07973, z: 109.44387}
+  m_Center: {x: -5.893811, y: 705.3396, z: 65.23208}
 --- !u!59 &8164078559735021906
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -29090,8 +29095,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 29.370419, y: 72.026115, z: 22.34581}
-  m_Center: {x: -48.57826, y: 118.36487, z: -75.01996}
+  m_Size: {x: 29.370422, y: 81.322105, z: 22.34581}
+  m_Center: {x: -48.57827, y: 113.716866, z: -75.01997}
 --- !u!1 &8164078559803063044
 GameObject:
   m_ObjectHideFlags: 0
@@ -29365,8 +29370,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 74.64499, y: 71.1916, z: 126.594765}
-  m_Center: {x: -166.42418, y: 823.88824, z: -35.07583}
+  m_Size: {x: 74.64499, y: 161.68185, z: 126.594765}
+  m_Center: {x: -166.42418, y: 869.13336, z: -35.07583}
 --- !u!33 &8648878945449142486
 MeshFilter:
   m_ObjectHideFlags: 0

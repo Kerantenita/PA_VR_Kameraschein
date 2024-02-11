@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AutoReset : MonoBehaviour
 {
-    // Dauer bis das Objekt zur�ckgesetzt wird
+    // Dauer bis das Objekt zurueckgesetzt wird
     public float timeTillRespawn;
 
     // Zeit die bereits vergangen ist
@@ -38,7 +38,7 @@ public class AutoReset : MonoBehaviour
             Respawn();
         }
 
-        print(elapsedTime);
+        //print(elapsedTime);
     }
 
     void OnCollisionEnter(Collision collision)
