@@ -847,21 +847,20 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   messages:
-  - "1. Vor Ihnen steht ein Stativ, \ndieses muss man richtig einrichten.\n\nAls
-    erstes Ziehen Sie den Hebel,\nder sich auf der rechten Seite von\ndem Socket
-    befindet nach oben"
-  - "2. Nun befestigen Sie den Hebel indem \nSie die Schraube zudrehen \n\nSchraube
-    befindet sich rechts von dem \nHebel und muss nach links gedreht \nwerden, so
-    dass diese vertikal \nzum Boden steht "
-  - "3. Nun k\xF6nnen sie die Beine ausklappen\nGreifen Sie jedes Bein einzeln \nungef\xE4hr
-    in der Mitte,\nmit einer Hand und ziehen dieses \nleicht nach oben"
-  - "4. Als N\xE4chtes muss auch \ndie Spinne ausgeklappt werden. \nSie h\xE4lt die
-    Stativbeine \nin der richtigen Position \n\nDie Spinne wird genauso ausgeklappt\nwie
-    die Stativbeine.\nGreifen sie einzelne Teile der Spinne \nund ziehen diese leicht
-    nach oben"
-  - "Prima! Du hast die erste \xDCbung \nerfolgreich abgeschlossen \nDer Stativ ist
-    nun richtig eingerichtet \num die Kamera drauf zu befestigen. \nDas machst du
-    in der n\xE4chsten \xDCbung"
+  - "1. Vor Ihnen steht ein Stativ, \ndieses muss richtig eingestellt werden.\n\nZiehen
+    Sie hierf\xFCr den Hebel,\nder sich auf der rechten Seite des \nSockels befindet
+    nach oben."
+  - "2. Nun befestigen Sie den Hebel indem \nSie die pinke Schraube zudrehen. \n\nDer
+    Hebel muss nach links gedreht \nwerden, sodass dieser vertikal \nzum Boden steht."
+  - "3. Nun k\xF6nnen sie die Beine ausklappen.\nGreifen Sie hierzu  jedes \neinzelne
+    Bein mittig,\nmit einer Hand und \nziehen dieses nach oben."
+  - "4. Als n\xE4chtes muss auch \ndie Spinne ausgeklappt werden. \nSie h\xE4lt die
+    Stativbeine \nin der richtigen Position. \n\nDie Spinne wird genauso wie \ndie
+    Stativbeine ausgeklappt.\n\nGreifen Sie die einzelnen Teile der Spinne \nund
+    ziehen diese nach oben."
+  - "Prima! Du hast die erste \xDCbung \nerfolgreich abgeschlossen. \nDas Stativ
+    ist nun richtig eingerichtet,\num die Kamera darauf zu befestigen. \nDas machst
+    du in der n\xE4chsten \xDCbung."
 --- !u!4 &174744887 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4156622525105213751, guid: 578b05d48f135824788f29020766e26b,
@@ -2324,7 +2323,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: ad525bc9c746dbf489458de7f10491ac, type: 2}
+      objectReference: {fileID: 2100000, guid: 5939b9f30ae97f54e859e055d08f44fe, type: 2}
     - target: {fileID: 919132149155446097, guid: 1afb604df44edc24bb5eb0cafb3bf94f,
         type: 3}
       propertyPath: m_Name
@@ -12982,17 +12981,21 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   messages:
-  - "1. Greifen Sie zun\xE4chst den Akku. \n\n\xDCberpr\xFCfen Sie anhand des On/Of-\nSchalters,
-    ob die Kamera \nausgeschalten ist. \n\nSteht der Schalter auf Off, k\xF6nnen
-    \nSie den Akku in das Akku Fach \neinsetzen und nach links schieben."
-  - "2. \xD6ffnen Sie nun den Objektivdeckel\nder Kamera, indem Sie den Hebel\nnach
-    unten ziehen. "
+  - "1. Greifen Sie den Akku. \n\n\xDCberpr\xFCfen Sie anhand des \nOn/Off-Schalters,
+    ob die Kamera \nausgeschalten ist. \n\nIst der Schalter rot, k\xF6nnen \nSie
+    den Akku gefahrlos in \ndas Akku Fach einsetzen."
+  - "2. Stellen Sie sich vor das \nKameraobjektiv. \xD6ffnen Sie nun \nden Objektivdeckel
+    der Kamera. \n\nBer\xFChren Sie hierzu den lilanen Knopf, \nder sich rechts von
+    dem Objektiv \nbefindet, mit der Hand."
   - "3. Klappen Sie nun den \nKamerabildschirm auf. \n\nDaf\xFCr stellen Sie sich
     hinter die \nKamera in die Position in der Sie \nsp\xE4ter mit dem Filmen beginnen.
-    \n\nDrehen Sie den Kamerabildschirm \nnun um 90 Grad zu sich hin, sodass \nSie
-    den Bildschirm vor sich sehen."
-  - "4. Starten Sie die Aufnahme, indem \nSie den On/Off Knopf auf On stellen."
-  - "Herzlichen Gl\xFCckwunsch! \nSie haben alle drei \xDCbungen \nerfolgreich abgeschlossen! "
+    \n\nDrehen Sie den Kamerabildschirm nun,\nindem Sie die Kante des Bildschirms
+    \nmit Ihrer Handfl\xE4che greifen\nund bet\xE4tigen Sie dabei die Grip-Taste.\n"
+  - "4. Starten Sie die Aufnahme, indem \nSie den On/Off-Schlater auf On stellen.\n\nDie
+    Aufnahme wurde erfolgreich \naktiviert, sobald die Farbe des \nOn/Off-Schalters
+    von rot \nzu gr\xFCn wechselt."
+  - "Herzlichen Gl\xFCckwunsch! \nSie haben alle drei \xDCbungen \nerfolgreich abgeschlossen!
+    :) "
 --- !u!1 &1498382532
 GameObject:
   m_ObjectHideFlags: 0
@@ -15558,111 +15561,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1105566850}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1829268719
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1829268723}
-  - component: {fileID: 1829268722}
-  - component: {fileID: 1829268721}
-  - component: {fileID: 1829268720}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!65 &1829268720
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1829268719}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1829268721
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1829268719}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1829268722
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1829268719}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1829268723
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1829268719}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.436, y: 2.6802433, z: -11.503}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1845848526
 GameObject:
   m_ObjectHideFlags: 0
@@ -15771,8 +15669,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.10292571, y: 0.051710352, z: 0.085890554}
-  m_Center: {x: 0.021258665, y: 0.00046147656, z: -0.012437644}
+  m_Size: {x: 0.062228125, y: 0.023604244, z: 0.085890554}
+  m_Center: {x: 0.0009099488, y: -0.013591586, z: -0.0124376435}
 --- !u!1001 &1854387327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15980,24 +15878,22 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   messages:
-  - "M\xF6chten Sie sich f\xFCr die \nKamerascheinpr\xFCfung vorbereiten \nund w\xFCrden
-    gerne \xFCben ?\nWir helfen Ihnen dabei :) \n\nUm fortzufahren aktivieren Sie
-    den Laser,\nindem Sie den Daumen auf \nThumbstick auf ihrem Controller legen\nZielen
-    Sie nun auf den \"Weiter\"-Button \nund bet\xE4tigen Sie die Trigger-Taste \nmit
-    dem Zeigefinger "
-  - "Super, nun wissen Sie wie man \nzu der n\xE4chsten Folie schaltet \nBevor Sie
-    starten \nerkl\xE4ren wir Ihnen, \nwie dieses Tutorial funktioniert"
-  - "Dieses Tutorial besteht aus 3 \xDCbungen.\nDurch das Bearbeiten von \xDCbungen
-    \nlernen Sie: \n1. Den Stativ richtig aufzubauen\n2. Kamera auf dem Stativ zu
-    befestigen \n3. Mit dem Filmen zu starten"
-  - "Jede \xDCbung besteht aus \nmehreren Schritten, diese \nwerden auf den Folien
-    erkl\xE4rt "
-  - "Um die \xDCbungen zu bearbeiten, \nm\xFCssen Sie verschieden Objekte steuern\n\nSie
+  - "M\xF6chten Sie sich f\xFCr die \nKamera-Schein-Pr\xFCfung vorbereiten?\nWir
+    helfen Ihnen dabei. :) \n\nUm fortzufahren aktivieren Sie den Laser,\nindem Sie
+    Ihren Daumen auf den\nThumbstick ihres Controllers legen.\nZielen Sie nun auf
+    den \"Weiter\"-Button \nund bet\xE4tigen Sie die Trigger-Taste \nmit dem Zeigefinger."
+  - "Super, nun wissen Sie wie man \nzwischen den Panels schalten kann. \nAber bevor
+    Sie starten \nerkl\xE4ren wir Ihnen noch, \nwie dieses Tutorial funktioniert."
+  - "Dieses Tutorial besteht aus 3 \xDCbungen: \n\n1. Das Stativ richtig aufbauen\n2.
+    Die Kamera auf dem Stativ befestigen \n3. Mit dem Filmen starten"
+  - "Jede \xDCbung besteht aus \nmehreren Schritten, diese \nwerden auf den Panels
+    erkl\xE4rt."
+  - "Um die \xDCbungen zu bearbeiten, \nm\xFCssen Sie verschiedene Objekte steuern.\n\nSie
     k\xF6nnen die Objekte anfassen \nindem Sie diese mit der Hand ber\xFChren \nund
-    die Grip-Taste bet\xE4tigen \n\nProbieren Sie aus! \n\xD6ffnen Sie die Tasche,
-    \nindem Sie den Griff anfassen, \nleicht nach Oben und zur Seite ziehen "
-  - "Sehr gut! \nNun wissen Sie alles, \num die erste \xDCbung zu starten \n\nViel
-    Gl\xFCck!\n"
+    die Grip-Taste bet\xE4tigen.\n\nProbieren Sie aus! \n\xD6ffnen Sie die Tasche,
+    \nindem Sie den Griff anfassen \nund nach oben ziehen."
+  - "Sehr gut! \nNun wissen Sie alles, \num die erste \xDCbung zu starten.\n\nViel
+    Erfolg!\n"
 --- !u!114 &1875805455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23712,17 +23608,17 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   messages:
-  - "1. Nehmen Sie die Kamera aus der \nTasche. \n\nAchten Sie dabei auf einen \nsicheren
-    Griff.\n\n"
-  - "2. Kippen Sie die Kamera zun\xE4chst \nnach rechts und dann nach links."
-  - "3. Um die Kamera nun zu befestigen, \nmuss die Schraube zugedreht \nwerden.
-    \n\nDiese befindet sich hier, mittig \nunter dem Sockel auf der linken\nSeite
-    des Stativs."
+  - "1. Nehmen Sie die Kamera aus der \nTasche. \n\nHinweis: Achten Sie dabei auf
+    einen \nsicheren Griff.\n"
+  - "2. Als n\xE4chstes befestigen \nSie die Kamera auf dem Stativ.\nKippen Sie hierzu
+    die Kamera zuerst\nnach rechts und anschlie\xDFend \nnach links.\n\nHinweis:
+    Bei der echten Kamera \nh\xF6ren Sie ein Klicken, \nsobald die Kamera eingerastet
+    ist."
+  - "3. Um die Kamera nun zu befestigen, \nmuss die orangene Schraube zugedreht \nwerden.
+    \n\nDiese befindet sich links\nvon dem Sockel."
   - "4. Es ist wichtig die Kamera ins \nWasser zu bringen.\n\nDrehen Sie hierzu die
-    Schraube \nam Sockel der Kamera auf und\nbewegen Sie das Kamerastativ \nvorsichtig
-    hin und her bis die\nLuftblase in der Wasserwaage sich \ngenau in der Mitte befindet.\n\nDanach
-    schrauben Sie die Schraube \nwieder zu und die Kamera ist \nausgerichtet und
-    befestigt."
+    blaue \nSchraube unter dem Sockel.\n\nHinweis: Bewegen Sie die Kamera \nvorsichtig
+    hin und her, bis die\nLuftblase in der Wasserwaage sich \ngenau mittig befindet."
   - "Herzlichen Gl\xFCckwunsch, jetzt \nk\xF6nnen Sie mit dem Filmen beginnen!"
 --- !u!1 &1918117902
 GameObject:
@@ -30109,4 +30005,3 @@ SceneRoots:
   - {fileID: 1126809082}
   - {fileID: 1108434423}
   - {fileID: 1869415405}
-  - {fileID: 1829268723}
